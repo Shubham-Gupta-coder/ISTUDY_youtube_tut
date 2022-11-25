@@ -1,5 +1,4 @@
 // Get All The Components at codewind.vercel.app
-// Get All The Components at codewind.vercel.app
 
 import { useState } from "react";
             import Link from "next/link";
