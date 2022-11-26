@@ -1,7 +1,7 @@
 // Get All The Components at codewind.vercel.app
 
 import { useState } from "react";
-            import Link from "next/link";
+import Link from "next/link";
 export default function Home() {
   const [hide, setHide] = useState("hidden");
   return (
@@ -60,7 +60,7 @@ export default function Home() {
                       src="https://images.pexels.com/photos/6330644/pexels-photo-6330644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                       alt="templates"
                     />
-                    <Link href="/components">
+                    <Link href="/hacking">
                       <button className="text-center text-white rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 font-bold p-4 px-8 mb-4">
                         Learn Now
                       </button>
@@ -74,7 +74,7 @@ export default function Home() {
                       src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/83/e258e0532611e5a5072321239ff4d4/jhep-coursera-course4.png?auto=format%2Ccompress&dpr=1"
                       alt="templates"
                     />
-                    <Link href="/components">
+                    <Link href="/webdev">
                       <button className="text-center text-white rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 font-bold p-4 px-8 mb-4">
                         Learn Now
                       </button>
@@ -88,7 +88,7 @@ export default function Home() {
                       src="https://miro.medium.com/max/510/1*vERs5fGwdo5l3IB4HQmyYg.png"
                       alt="templates"
                     />
-                    <Link href="/components">
+                    <Link href="/appdev">
                       <button className="text-center text-white rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 font-bold p-4 px-8 mb-4">
                         Learn Now
                       </button>
@@ -102,7 +102,7 @@ export default function Home() {
                       src="https://www.rankbyfocus.com/wp-content/uploads/2022/01/sketch-vs-figma-vs-adobe-xd.png"
                       alt="templates"
                     />
-                    <Link href="/components">
+                    <Link href="/uiux">
                       <button className="text-center text-white rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 font-bold p-4 px-8 mb-4">
                         Learn Now
                       </button>
