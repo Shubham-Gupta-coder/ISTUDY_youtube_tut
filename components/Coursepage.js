@@ -13,7 +13,7 @@ const Coursepage = (props) => {
         </div>
         <div className="container my-10 mx-auto flex items-center justify-around shadow-[10px_10px_20px_0_#00000031] rounded-xl p-10">
           <div className="text flex w-1/2 flex-col justify-center">
-            <h4 className='text-4xl my-2'>Web Development Made Easy by iStudy</h4>
+            <h4 className='text-4xl my-2'>{props.heading} Easily with the help of iStudy</h4>
             <p className='leading-7'>on et officiis laudantium repellat, asperiores, dignissimos doloribus perspiciatis placeat sed voluptatem accusantium ullam? Atque nihil corporis fuga maiores incidunt ea deserunt, eum aliquid? Temporibus at doloremque rem maiores numquam veniam exercitationem soluta ab. Laboriosam veniam id cupiditate deleniti quam pariatur voluptatum perspiciatis totam reiciendis. Eaque nostrum doloribus similique incidunt, ex ab nemo in quaerat error sed quas earum dolorem!</p>
           </div>
           <div className="img">
@@ -25,11 +25,21 @@ const Coursepage = (props) => {
             <h3 className='text-3xl mx-5'>Course Length:</h3>
             <p className='text-2xl'>7 Hours 32 Mins</p>
           </div>
-          <div className="flex items-baseline justify-center p-5 w-1/2 shadow-[10px_10px_20px_0_#00000031] rounded-xl">
+          <div className="flex items-center justify-center p-5 w-1/2 shadow-[10px_10px_20px_0_#00000031] rounded-xl">
             <h3 className='text-3xl mx-5'>Course Rating:</h3>
-            <p className='text-2xl'>5 Stars</p>
+            <div className="flex">
+              <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1669474986~exp=1669475586~hmac=59ff567d32de434dcc736dddcd5f540692522c8d2dde9fd634684168f3c9814e" className='w-[50px]' alt="" />
+              <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1669474986~exp=1669475586~hmac=59ff567d32de434dcc736dddcd5f540692522c8d2dde9fd634684168f3c9814e" className='w-[50px]' alt="" />
+              <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1669474986~exp=1669475586~hmac=59ff567d32de434dcc736dddcd5f540692522c8d2dde9fd634684168f3c9814e" className='w-[50px]' alt="" />
+              <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1669474986~exp=1669475586~hmac=59ff567d32de434dcc736dddcd5f540692522c8d2dde9fd634684168f3c9814e" className='w-[50px]' alt="" />
+            </div>
           </div>
         </div>
+        
+        <button className="p-2 w-full bg-none text-cyan-500 border-2 border-cyan-500 hover:bg-cyan-500 rounded-md m-2 hover:text-[#fff] cursor-pointer transition-all text-3xl uppercase font-medium">
+                  BUY THIS course 
+              </button>
+            
       </div>
     </>
   )
