@@ -1,9 +1,11 @@
 // Get All The Components at codewind.vercel.app
 import Link from "next/link"
+import Landing from "../components/Landing"
 
 export default function Home() {
   return (
     <>
+    <Landing title="iStudy Courses - Made With Love" desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, vitae. Nemo ut, optio delectus autem expedita repudiandae ratione ducimus ad eos, libero perferendis quaerat architecto magnam. Rerum fugit dolore quibusdam."/>
             <div className="container mx-auto my-10">
 
             <h1 className="w-full my-2 text-white text-center text-4xl rounded-xl bg-gradient-to-r py-5 from-cyan-500 to-blue-500 font-bold">

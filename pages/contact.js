@@ -1,8 +1,12 @@
 import React from 'react'
+import Landing from '../components/Landing'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+<>
+<Landing title="Contact Us" desc=""/>
+
+</>
   )
 }
 
