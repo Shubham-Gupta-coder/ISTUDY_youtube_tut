@@ -11,7 +11,7 @@ export default function Home() {
             <h1 className="w-full my-2 text-white text-center text-4xl rounded-xl bg-gradient-to-r py-5 from-cyan-500 to-blue-500 font-bold">
                       Best Courses
               </h1>
-            <div className="flex my-10">
+            <div className="flex my-10 flex-wrap justify-center">
             <div className="border m-5 border-slate-500 flex flex-col items-center justify-between rounded-2xl w-[300px] h-[400px]">
                     <h2 className="w-full text-center text-white text-2xl rounded-b-none rounded-xl bg-gradient-to-r py-5 from-cyan-500 to-blue-500 font-bold">
                       Learn Hacking
